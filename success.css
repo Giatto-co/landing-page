@@ -1,319 +1,80 @@
-* {
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "Product Sans";
-    src: url(/Font/Product-Sans-Regular.ttf);
-}
-
 body {
-    font-family: "Product Sans", sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #3F3D56;
+    background: #000;
 }
 
 a {
-     text-decoration: none;
-     color: inherit;
+    text-decoration: none;
 }
 
 .section-div {
-    width: 40%;
-    color: #c5c3d5;
+    width: 60%;
+    display: flex;
+    gap: 100px;
+    color: #00dae6;
+    box-shadow: 3px 4px 12px -2px;
     box-shadow: -3px -5px 12px -2px;
-    border-radius: 10px;
+    margin: 210px 400px;
+    border-radius: 8px;
     background: #fff;
-    position: absolute;
-    top: 10%;
-    left: 30%;
 }
 
 .section-div img {
-    width: 70%;
-    height: 30%;
-    margin-left: 15%;
+    width: 60%;
+    height: 40%;
+    color: #000;
+    box-shadow: 3px 4px 12px -2px;
+    border-top-left-radius: 8px;
 }
 
 .section-div h3 {
-    font-size: 33px;
-    margin-top: -50px;
-    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: -50px;
     padding: 10px;
-    color: #3F3D56;
+    color: #000;
 }
 
 .section-div p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
     text-align: center;
-    color: #3F3D56;
-    margin-top: -20px;
-    padding: 0 10px;
+    color: #000;
+    padding-bottom: -100px;
+    margin-bottom: -15px;
+    margin-left: -50px;
 }
 
+span {
+    color: #00dae6;
+    font-weight: 600;
+}
 
 .section-div .newP {
-    margin-top: 20px;
-    margin-bottom: -5px;
-}
-
-.section-div .anotherP {
-    display: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 ul {
     display: flex;
     gap: 40px;
-    justify-content: center;
     margin-left: -50px;
-    list-style: none;
-    margin-bottom: 30px;
 }
 
 ul li a {
     font-style: italic;
-    font-weight: 400;
-    color: #3F3D56;
-}
-
-ul li a:hover {
-    color: #fff;
-    background: #3F3D56;
-    border: 1px solid #3F3D56;
-    border-radius: 4px;
-    padding: 2px;
-}
-
-.lower-div {
-    display: flex;
-    gap: 5px;
-    justify-content: center;
+    font-weight: 600;
 }
 
 .lower-div a p {
     font-size: 14px;
     font-style: italic;
-    margin-top: 10px;
-}
-
-.lower-div a p:hover {
-    background: #3F3D56;
-    color: #fff;
-    padding: 3px;
+    margin-top: 50px;
 }
 
 .lower-div a h3 {
     font-size: 28px;
-    margin-top: -10px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: #00dae6;
     font-weight: 800;
-} 
-
-/* Styling for responsiveness */
-@media screen and (max-width: 900px) {
-    .section-div {
-        width: 50%;
-        position: absolute;
-        left: 25%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .section-div {
-        width: 60%;
-        position: absolute;
-        left: 20%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .section-div {
-        width: 60%;
-        position: absolute;
-        left: 20%;
-    }
-
-    .section-div h3 {
-        font-size: 30px;
-    }
-
-    .section-div p {
-        font-size: 16px;
-        font-weight: 550;
-    }
-
-    .lower-div a p {
-        font-size: 14px;
-        font-style: italic;
-        margin-top: 8px;
-    }
-
-    .lower-div a h3 {
-        font-size: 26px;
-        font-weight: 800;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .section-div {
-        width: 65%;
-        position: absolute;
-        left: 18%;
-    }
-
-    .section-div h3 {
-        font-size: 28px;
-    }
-
-    .section-div p {
-        font-size: 16px;
-        font-weight: 550;
-    }
-
-    ul li a {
-        font-weight: 300;
-        font-size: 14.5px;
-    }
-
-    .lower-div a p {
-        font-size: 14px;
-        font-style: italic;
-        margin-top: -5px;
-    }
-
-    .lower-div a h3 {
-        font-size: 26px;
-        font-weight: 800;
-        margin-top: -25px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .section-div {
-        width: 68%;
-        position: absolute;
-        left: 16%;
-    }
-
-   .section-div h3 {
-        font-size: 30px;
-    }
- 
-   .section-div p {
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    ul li a {
-        font-weight: 300;
-        font-size: 12px;
-    }
-
-    .lower-div a p {
-        font-size: 14px;
-        font-style: italic;
-        margin-top: -5px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .section-div {
-        width: 68%;
-        position: absolute;
-        left: 16%;
-    }
-
-   .section-div h3 {
-        font-size: 30px;
-    }
-
-    .section-div #newP {
-        display: none;
-    }
-
-    .section-div #anotherP {
-        margin-top: -15px;
-        margin-bottom: 12px;
-        font-size: 14px;
-    }
-
-    .section-div .anotherP {
-        display: block;
-        margin-top: 10px;
-        margin-bottom: -5px;
-        font-size: 14px;
-    }
-
-    ul li a {
-        font-weight: 300;
-        font-size: 12px;
-    }
-
-    .lower-div a p {
-        font-size: 13px;
-        font-style: italic;
-        margin-top: -5px;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .section-div {
-        width: 70%;
-        position: absolute;
-        left: 14%;
-        top: 15%;
-    }
-
-    .section-div img {
-        width: 190px;
-        height: 30%;
-        margin-left: 5px;
-    }
-
-   .section-div h3 {
-        font-size: 23px;
-    }
-
-    .section-div #newP {
-        display: none;
-    }
-
-    .section-div #anotherP {
-        margin-top: -15px;
-        margin-bottom: 12px;
-        font-size: 14px;
-    }
-
-    .section-div .anotherP {
-        display: block;
-        margin-top: 10px;
-        margin-bottom: -5px;
-        font-size: 14px;
-    }
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        text-align: center;
-        list-style: none;
-        margin-bottom: 30px;
-    }
-    
-    ul li a {
-        font-weight: 300;
-        font-size: 12px;
-    }
-
-    .lower-div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .lower-div a p {
-        font-size: 12px;
-        font-style: italic;
-        margin-top: -5px;
-    }
+    margin-left: 70px;
 }
