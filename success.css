@@ -21,7 +21,7 @@ a {
 
 .section-div {
     width: 40%;
-    color: #c5c3d5;
+    color: #8b88aa;
     box-shadow: -3px -5px 12px -2px;
     border-radius: 10px;
     background: #fff;
@@ -52,7 +52,6 @@ a {
     margin-top: -20px;
     padding: 0 10px;
 }
-
 
 .section-div .newP {
     margin-top: 20px;
@@ -254,6 +253,128 @@ ul li a:hover {
         font-size: 13px;
         font-style: italic;
         margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section-div {
+        width: 68%;
+        position: absolute;
+        left: 16%;
+        top: 8%;
+    }
+
+   .section-div h3 {
+        font-size: 30px;
+        padding: 10px 0 5px;
+    }
+
+    .section-div #newP {
+        display: none;
+    }
+
+    .section-div #anotherP {
+        margin-top: -15px;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+
+    .section-div .anotherP {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: -5px;
+        font-size: 14px;
+    }
+
+   ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 30px;
+    }
+    
+    ul li a {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .lower-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lower-div a p {
+        font-size: 12px;
+        font-style: italic;
+        margin-top: -20px;
+    }
+
+     .lower-div a h3 {
+        margin-top: -25px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .section-div {
+        width: 68%;
+        position: absolute;
+        left: 16%;
+        top: 8%;
+    }
+
+   .section-div h3 {
+        font-size: 30px;
+        padding: 10px 0 5px;
+    }
+
+    .section-div #newP {
+        display: none;
+    }
+
+    .section-div #anotherP {
+        margin-top: -15px;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+
+    .section-div .anotherP {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: -5px;
+        font-size: 14px;
+    }
+
+   ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 30px;
+    }
+    
+    ul li a {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .lower-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lower-div a p {
+        font-size: 12px;
+        font-style: italic;
+        margin-top: -20px;
+    }
+
+     .lower-div a h3 {
+        margin-top: -25px;
+        margin-bottom: 0;
     }
 }
 
