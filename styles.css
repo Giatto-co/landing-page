@@ -1352,10 +1352,6 @@ ul {
         font-size: 30px;
         font-weight: 1000;
     }
-
-    /* .main-bar #welcomeN {
-        display: none;
-    } */
     
     .main-bar ul li a {
         /* margin-right: 40px; */
@@ -1439,5 +1435,485 @@ ul {
         font-size: 13px;
         display: block;
         margin: -70px 0 22px 92px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 650px) {
+    .main-bar {
+        display: flex;
+        gap: 8%;
+        height: 20px;
+        margin: 3% 8%;
+        padding: 1% 0%;
+    }
+    
+   .main-bar a {
+        font-weight: 1000;
+        color: #00dae6;
+        font-size: 28px;
+        letter-spacing: -1px;
+    }
+    
+    .main-bar ul {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .main-bar ul li a {
+        height: 50px;
+        line-height: 43px;
+        margin: 3px;
+        padding: 0px 5px;
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 17%;
+        top: 65%;
+    }
+    
+    .main-div h4 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+    .main-div h2 {
+        font-weight: 400;
+        font-size: 62px;
+        padding: 5px 0 0;
+        margin-bottom: 10px;
+    }
+    
+    .main-div p {
+        font-weight: 350;
+        font-size: 28px;
+        padding: 17px 0 0;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 670px) {
+    .main-bar {
+        display: flex;
+        gap: 8%;
+        height: 20px;
+        margin: 3% 10%;
+        padding: 1% 0%;
+    }
+    
+   .main-bar a {
+        font-weight: 1000;
+        color: #00dae6;
+        font-size: 28px;
+        letter-spacing: -1px;
+    }
+    
+    .main-bar ul {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .main-bar ul li a {
+        margin: 5px;
+        padding: 0px 5px;
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 15%;
+        top: 50%;
+    }
+    
+    .main-div h4 {
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    .main-div h2 {
+        font-weight: 300;
+        font-size: 52px;
+        padding: 5px 0 0;
+        margin-bottom: 5px;
+    }
+    
+    .main-div p {
+        font-weight: 350;
+        font-size: 18px;
+        padding: 17px 0 0;
+    }
+
+    .button-div {
+        width: 70%;
+        height: 6%;
+        margin: 0 40px ;
+    }
+
+    .button-div input {
+        margin: 8px 20px;
+        width: 55%;
+    }
+    
+    .button-div input::placeholder {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        /* margin: 0; */
+    }
+    
+    .button-div .button{
+        font-size: 14px;
+        margin: -65px 150px 22px 200px;
+    }
+}
+
+@media screen and (min-width: 530px) and (max-width: 550px) {
+    .main-bar {
+        gap: 3%;
+        margin: 0px 5px 20px ;
+        height: 55px;
+    }
+
+    .main-bar ul {
+        display: flex;
+        flex-direction: row;
+        gap: 0%;
+    }
+
+  .main-bar a {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .main-bar ul li a {
+        margin: -10px 0px -5px 0;
+        padding: -15px -2px;
+        font-size: 14px;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 10%;
+        top: 60%;
+    }
+    
+    .main-div .lower-h4 {
+        display: none;
+    }
+
+    .main-div .lower-h2 {
+        display: none;
+    }
+
+   .main-div .upper-h2 {
+        display: block;
+        font-weight: 320;
+        font-size: 45px;
+        padding: 3px 0 2px;
+        letter-spacing: -3px;
+    }
+
+    .main-div .upper-h4 {
+        display: block;
+        font-weight: 200;
+        font-size: 16px;
+    }
+
+    .main-div p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 0px 0;
+        margin-bottom: 20px;
+    }
+
+    .button-div {
+        width: 70%;
+        height: 6%;
+        margin: 0 80px ;
+    }
+    
+    .button-div input {
+        margin: 2px 10px;
+        padding: 5px -2px;
+        width: 38%;
+    }
+    
+    .button-div .button {
+        font-size: 18px;
+        margin: -75px 0px 10px 220px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 750px) {
+    .main-bar {
+        gap: 8%;
+        margin: 0px 50px 0;
+    }
+
+    .main-bar a {
+        font-size: 28px;
+    }
+
+    .main-bar ul {
+        display: flex;
+        gap: 3%;
+    }
+
+    .main-bar ul li a {
+    height: 20px;
+    margin: -12px 3px 0;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 100;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 12%;
+        top: 50%;
+    }
+
+    .main-div h4 {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .main-div h2 {
+        font-size: 50px;
+        padding: 5px 0;
+        letter-spacing: -2.0px;
+    }
+    
+    .main-div p {
+        margin: -15px 35px 10px;
+    }
+
+    .button-div {
+        width: 87%;
+        height: 10%;
+        margin: 0 40px ;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 855px) {
+    .main-bar {
+        gap: 8%;
+        margin: 5px 60px 0;
+    }
+
+   .main-bar ul {
+        display: flex;
+        gap: 5%;
+    }
+
+    .main-bar ul li a {
+    height: 40px;
+    margin: 10px 5px;
+    padding: 2px 8px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 100;
+    } 
+
+    .main-div {
+        position: absolute;
+        left: 12%;
+        top: 50%;
+    }
+
+    .main-div h4 {
+        font-weight: 500;
+        font-size: 19px;
+    }
+
+    .main-div h2 {
+        font-size: 50px;
+        padding: 5px 0;
+        letter-spacing: -2.0px;
+    }
+    
+    .main-div p {
+        font-size: 25px;
+        margin: -20px 35px 10px;
+    }
+
+    .button-div {
+        width: 87%;
+        height: 10%;
+        margin: 0 40px ;
+    }
+    
+    .button-div input {
+        margin: 8px 20px;
+        width: 55%;
+    }
+    
+    .button-div input::placeholder {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
+    .button-div .button{
+        font-size: 20px;
+        margin: -65px 60px 22px 230px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 750px) {
+    .main-bar {
+        gap: 8%;
+        margin: 0px 50px 0;
+    }
+
+    .main-bar a {
+        font-size: 28px;
+    }
+
+    .main-bar ul {
+        display: flex;
+        gap: 3%;
+    }
+
+    .main-bar ul li a {
+    height: 20px;
+    margin: -12px 3px 0;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 100;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 12%;
+        top: 43%;
+    }
+
+    .main-div h4 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .main-div h2 {
+        font-size: 50px;
+        padding: 5px 0;
+        letter-spacing: -2.0px;
+    }
+    
+    .main-div p {
+        margin: -20px 35px 8px;
+        font-size: 0px;
+        /* margin: 15px 35px 30px; */
+    }
+
+    .button-div {
+        width: 80%;
+        height: 10%;
+        margin: 0 40px ;
+    }
+
+    .button-div input {
+        margin: 8px 20px;
+        width: 50%;
+    }
+    
+    .button-div input::placeholder {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .button-div .button{
+        font-size: 18px;
+        margin: -65px 60px 22px 210px;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 855px) {
+    .main-bar {
+        gap: 8%;
+        width: 100%;
+        margin: 20px 60px 0;
+    }
+    
+    .main-bar ul {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .main-bar ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 10px 0px;
+    padding: 0px 8px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    transition: 0.1s;
+    letter-spacing: 0;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 10%;
+        top: 48%;
+    }
+}
+
+@media screen and (min-width: 890px) and (max-width: 950px) {
+    .main-bar {
+        gap: 8%;
+        margin: 5px 60px 0;
+    }
+    
+    .main-bar ul {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .main-bar ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 10px 5px;
+    padding: 0px 8px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    transition: 0.1s;
+    letter-spacing: 0;
+    }
+
+    .main-div {
+        position: absolute;
+        left: 10%;
+        top: 43%;
+    }
+
+    .main-div h4 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .main-div h2 {
+        font-size: 50px;
+        padding: 5px 0;
+        letter-spacing: -2.0px;
+    }
+
+    .main-div p {
+        margin: -20px 45px 15px;
+        font-size: 20px;
+    }
+
+    .button-div {
+        width: 87%;
+        height: 10%;
+        margin: 0 40px ;
     }
 }
