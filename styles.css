@@ -694,8 +694,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 10%;
@@ -738,8 +746,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 8%;
@@ -804,8 +820,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 0%;
@@ -870,8 +894,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 1%;
@@ -944,8 +976,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 1%;
@@ -1018,8 +1058,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 0%;
@@ -1091,8 +1139,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 0%;
@@ -1201,8 +1257,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 0%;
@@ -1313,8 +1377,16 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
 
     .main-bar {
         gap: 0%;
@@ -1425,9 +1497,17 @@ ul {
     .main-section {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
-        background-size: 500px auto;
+        background-size: 500px 100%;
     }
-    
+
+    /* video {
+        display: none;
+    }
+
+    .main-section {
+        background: #3F3D56;
+    } */
+
     .main-bar {
         gap: 0%;
         width: 100%;
