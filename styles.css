@@ -687,7 +687,7 @@ ul {
 }
 
 @media screen and (max-width: 500px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -695,15 +695,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 10%;
@@ -739,7 +739,7 @@ ul {
 }
 
 @media screen and (max-width: 450px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -747,15 +747,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 8%;
@@ -813,7 +813,7 @@ ul {
 }
 
 @media screen and (max-width: 414px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -821,15 +821,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 0%;
@@ -887,7 +887,7 @@ ul {
 }
 
 @media screen and (max-width: 390px) {
-    video {
+    /* video {
         display: none;
     }
 
@@ -895,15 +895,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 1%;
@@ -969,7 +969,7 @@ ul {
 }
 
 @media screen and (max-width: 375px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -977,15 +977,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 1%;
@@ -1051,7 +1051,7 @@ ul {
 }
 
 @media screen and (max-width: 320px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -1059,15 +1059,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 0%;
@@ -1132,7 +1132,7 @@ ul {
 }
 
 @media screen and (max-width: 300px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -1140,15 +1140,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 0%;
@@ -1250,7 +1250,7 @@ ul {
 }
 
 @media screen and (max-width: 280px) {
-    video {
+     /* video {
         display: none;
     }
 
@@ -1258,15 +1258,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 0%;
@@ -1370,7 +1370,7 @@ ul {
 }
 
 @media screen and (max-width: 250px) {
-    video {
+    /* video {
         display: none;
     }
 
@@ -1378,15 +1378,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    }
 
     .main-bar {
         gap: 0%;
@@ -1490,7 +1490,7 @@ ul {
 }
 
 @media screen and (max-width: 200px) {
-    video {
+    /* video {
         display: none;
     }
 
@@ -1498,15 +1498,15 @@ ul {
         background-image: url('/Video/moon_walker.gif');
         background-repeat:repeat;
         background-size: 500px 100%;
-    }
+    } */
 
-    /* video {
+    video {
         display: none;
     }
 
     .main-section {
         background: #3F3D56;
-    } */
+    } 
 
     .main-bar {
         gap: 0%;
