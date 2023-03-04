@@ -294,6 +294,12 @@ ul {
   }
 }
 
+@media screen and (max-width: 586px) {
+  #mc-embedded-subscribe {
+    margin-left: 19em;
+  }
+}
+
 @media screen and (max-width: 562px) {
   #mc-embedded-subscribe {
     margin-left: 18em;
@@ -302,7 +308,7 @@ ul {
 
 @media screen and (max-width: 540px) {
   #mc-embedded-subscribe {
-    margin-left: 17em;
+    margin-left: 17.5em;
   }
 }
 
@@ -316,6 +322,69 @@ ul {
   }
 }
 
+@media screen and (max-width: 503px) {
+  #mce-EMAIL {
+    margin-left: 1em;
+  }
+
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #mc-embedded-subscribe {
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #mc-embedded-subscribe {
+    margin-left: 15em;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  #mc-embedded-subscribe {
+    margin-left: 17.5em;
+  }
+}
 
 @media screen and (max-width: 416px) {
   #welcome {
