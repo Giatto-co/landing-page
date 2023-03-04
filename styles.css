@@ -294,17 +294,21 @@ ul {
   }
 }
 
-@media screen and (max-width: 540px) {
-
+@media screen and (max-width: 562px) {
   #mc-embedded-subscribe {
-    margin-left: 17em;
+    margin-left: 18em;
   }
 }
 
 @media screen and (max-width: 556px) {
-
   #mc-embedded-subscribe {
-    margin-left: 18em;
+    margin-left: 16em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #mc-embedded-subscribe {
+    margin-left: 17em;
   }
 }
 
