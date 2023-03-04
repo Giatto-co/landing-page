@@ -312,62 +312,6 @@ ul {
   }
 }
 
-@media screen and (max-width: 502px) {
-  #mce-EMAIL {
-    margin-left: 0.5em;
-  }
-
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 503px) {
-  #mce-EMAIL {
-    margin-left: 1em;
-  }
-
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 504px) {
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 505px) {
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 506px) {
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 507px) {
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 508px) {
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
-@media screen and (max-width: 509px) {
-  #mc-embedded-subscribe {
-    margin-left: 16em;
-  }
-}
-
 @media screen and (max-width: 510px) {
   #mc-embedded-subscribe {
     margin-left: 16em;
@@ -380,11 +324,25 @@ ul {
   }
 }
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 465px) {
   #mc-embedded-subscribe {
-    margin-left: 17.5em;
+    margin-left: 14.5em;
   }
 }
+
+@media screen and (max-width: 446px) {
+  #mc-embedded-subscribe {
+    font-size: 1.1rem;
+    margin-left: 15.25em;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  #mc-embedded-subscribe {
+    margin-left: 14.5em;
+  }
+}
+
 
 @media screen and (max-width: 416px) {
   #welcome {
@@ -411,13 +369,15 @@ ul {
     margin-left: 0.5em;
     width: 70%;
   }
+}
 
+@media screen and (max-width: 407px) {
   #mc-embedded-subscribe {
-    margin-left: 13em;
+    margin-left: 14em;
   }
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 399px) {
   #mce-EMAIL {
     margin-bottom: 2.25em;
   }
@@ -425,6 +385,12 @@ ul {
   #mc-embedded-subscribe {
     margin-left: 15em;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  #mc-embedded-subscribe {
+    margin-left: 14.5em;
   }
 }
 
@@ -448,6 +414,42 @@ ul {
   }
 }
 
+@media screen and (max-width: 356px) {
+  #mc-embedded-subscribe {
+    margin-left: 13em;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  #mc-embedded-subscribe {
+    margin-left: 12.85em;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #mc-embedded-subscribe {
+    margin-left: 12.5em;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  #mc-embedded-subscribe {
+    margin-left: 12.35em;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #mc-embedded-subscribe {
+    margin-left: 12em;
+  }
+}
+
+@media screen and (max-width: 323px) {
+  #mc-embedded-subscribe {
+    margin-left: 11.75em;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .main-div h4, .main-div p, .button-div, .main-bar ul li a {
     font-size: 0.875rem;
@@ -455,16 +457,47 @@ ul {
 
   #mc-embedded-subscribe {
     font-size: 0.875rem;
+    margin-left: 13.5em;
   }
 }
 
-@media screen and (max-width: 301px) {
+@media screen and (max-width: 312px) {
+  #mc-embedded-subscribe {
+    margin-left: 13.25em;
+  }
+}
+
+@media screen and (max-width: 307px) {
   .main-div h2 {
     font-size: 2.25rem;
   }
 
   #mc-embedded-subscribe {
-    margin-left: 12.5em;
+    margin-left: 12.9em;
+  }
+}
+
+@media screen and (max-width: 301px) {
+  #mc-embedded-subscribe {
+    margin-left: 12.6em;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  #mc-embedded-subscribe {
+    margin-left: 12.25em;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  #mc-embedded-subscribe {
+    margin-left: 12em;
+  }
+}
+
+@media screen and (max-width: 286px) {
+  #mc-embedded-subscribe {
+    margin-left: 11.85em;
   }
 }
 
@@ -475,6 +508,52 @@ ul {
 
   #mc-embedded-subscribe {
     margin-left: 11.5em;
+  }
+
+  #mce-EMAIL {
+    padding-inline: 0.5em;
+  }
+
+}
+
+@media screen and (max-width: 278px) {
+  .main-div h2, #welcome  {
+    font-size: 2rem;
+  }
+
+  .main-div h4 {
+    font-size: 0.75rem;
+  }
+
+  #mc-embedded-subscribe {
+    margin-left: 11.5em;
+  }
+
+  #mce-EMAIL {
+    padding-inline: 0.5em;
+  }
+
+}
+
+@media screen and (max-width: 252px) {
+  #mc-embedded-subscribe {
+    margin-left: 12em;
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 248px) {
+  .main-div h2, #welcome  {
+    font-size: 1.8rem;
+  }
+
+  .main-div h4, .main-div p {
+    font-size: 0.65rem;
+  }
+
+  #mc-embedded-subscribe {
+    margin-left: 12em;
+    font-size: 0.75rem;
   }
 
   #mce-EMAIL {
@@ -494,6 +573,7 @@ ul {
 
   #mce-EMAIL {
     margin-left: 0.1em;
+    margin-bottom: 2.65em;
   }
 
   #mc-embedded-subscribe {
